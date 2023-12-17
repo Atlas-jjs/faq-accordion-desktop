@@ -26,6 +26,13 @@ body {
     font-size: 16px;
 }
 
+hr {
+    height: 1px;
+    border:none;
+    background-color: var(--grayish-purple);
+    opacity: 0.2;
+}
+
 img, svg {
     max-width: 100%;
     display: block;
@@ -96,20 +103,6 @@ button:hover {
         background-image: url(assets/images/background-pattern-mobile.svg);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .attribution { 
     font-size: 11px; 
